@@ -2,4 +2,7 @@
 
 [Angular tutorial resource](https://github.com/bradtraversy/angular-crash-todolist)
 
-[![Java Play Angular Seed](https://github.com/yohangz/java-play-angular-seed/blob/master/angular.png)](http://bit.ly/2AStvhK)
+[Java Play Angular Seed resource](https://github.com/yohangz/java-play-angular-seed)
+
+[license-badge]: http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license]: https://github.com/yohangz/java-play-angular-seed/blob/master/LICENSE
