@@ -1,5 +1,7 @@
 [![MIT License][license-badge]][LICENSE]
 
+[Angular tutorial resource](https://github.com/bradtraversy/angular-crash-todolist)
+
 # Java Play Angular Seed
 
 > Use play framework to develop the web application backend/services and frontend using Angular CLI, all in a totally integrated workflow and single unified console. This approach will deliver perfect development experience without CORS hassle. 
