@@ -8,6 +8,12 @@ GET     /                           controllers.FrontendController.index()
 # An example route (Prefix all API routes with apiPrefix defined in application.conf)
 GET     /api/summary                controllers.HomeController.appSummary
 
+# Get todos from database
+GET     /todos                      controllers.TodoController.index()
+
++nocsrf
+POST    /todos/create               controllers.TodoController.create(request: Request)
+
 # Serve static assets under public directory
 GET     /*file                      controllers.FrontendController.assetOrDefault(file)
 

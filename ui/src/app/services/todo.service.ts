@@ -21,7 +21,8 @@ export class TodoService {
 
   // Get Todos
   getTodos():Observable<Todo[]> {
-    return this.http.get<Todo[]>(`${this.todosUrl}${this.todosLimit}`);
+    //return this.http.get<Todo[]>(`${this.todosUrl}${this.todosLimit}`);
+    return this.http.get<Todo[]>('http://localhost:4200/todos');
   }
 
   // Delete Todo
@@ -32,7 +33,7 @@ export class TodoService {
 
   // Add Todo
   addTodo(todo:Todo):Observable<Todo> {
-    return this.http.post<Todo>(this.todosUrl, todo, httpOptions);
+    return this.http.post<Todo>('http://localhost:4200/todos/create', todo, httpOptions);
   }
 
   // Toggle Completed
